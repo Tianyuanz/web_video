@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="sign.css"/>
+<!--    <script>-->
+<!--       function check_Name() {-->
+<!--           var name=document.getElementById("username");-->
+<!--           if (name==""||isNaN(name)){-->
+<!--               alert("wrong")-->
+<!--           }-->
+
+<!--       }-->
+<!--    </script>-->
+</head>
+<body>
+<div class="wrap">
+    <div class="container">
+        <h1>Sign up</h1>
+        <form action="/login/signup" method="post">
+<!--            <table>-->
+<!--                 <tr>-->
+<!--                     <td>-->
+                  <input type="text" id="username" placeholder="用户名" name="username" onblur="check_Name()"/>
+<!--                     </td>-->
+<!--                     <td>-->
+                         <span id="spanname"></span>
+<!--                     </td>-->
+<!--                 </tr>-->
+<!--                    <tr>-->
+<!--                        <input type="text" placeholder="邮箱" name="email"/>-->
+<!--                    </tr>-->
+<!--                <tr>-->
+                    <input type="password" placeholder="密码" name="pwd"/>
+<!--                </tr>-->
+<!--                <tr>-->
+                    <input type="password" placeholder="确认密码" name="pwd2"/>
+<!--                </tr>-->
+<!--            </table>-->
+            <input type="submit" value="注册"/>
+            <p class="change_link" align="center">
+                <span class="text">准备好了 ?</span>
+                <a href="index.jsp" class="to_login"> 立即登陆 </a>
+            </p>
+        </form>
+    </div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
